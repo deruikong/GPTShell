@@ -4,7 +4,6 @@ from utils import run_command, parse
 import subprocess
 import os
 
-os.environ["OPENAI_API_KEY"]= "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"
 llm = ChatOpenAI(model="gpt-4-1106-preview", temperature=0)
 
 @tool
